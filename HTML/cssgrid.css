@@ -1,0 +1,20 @@
+.container{
+    display: grid ;
+    height: 1000px;
+ grid-template-columns: auto auto  auto auto;
+    background-color: bisque;
+    font-size:40px;
+    grid-template-rows: auto auto auto auto;
+    gap: 30px;
+}
+
+.container>div{
+    background-color: lavenderblush;margin: 10px;
+    padding: 20px;
+    
+}
+
+
+.item6{
+    grid-area: 1/2/5/6;
+}

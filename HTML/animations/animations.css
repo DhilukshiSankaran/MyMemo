@@ -1,0 +1,21 @@
+section {
+    width: 200x;
+      height: 200px;
+     background-color: green;
+      color: white;
+      font-size: 40px;
+      animation-name: example;
+      animation-duration: 4s;
+      /*animation-iteration-count: 2;
+      animation-direction: alternate;*/
+      animation-fill-mode: both;
+      /*animation-timing-function: ease-in-out;*/
+    }
+    
+    @keyframes example {
+        0%   {background-color: red;}
+        25%  {background-color: yellow;}
+        50%  {background-color: blue;}
+        100% {background-color: green;}
+      }
+      

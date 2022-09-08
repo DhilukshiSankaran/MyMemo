@@ -1,0 +1,13 @@
+
+@media (orientation: landscape) {
+    body {
+        color: rebeccapurple;
+    }
+}
+
+@media (hover: hover) {
+    body {
+        
+        color: rebeccapurple;
+    }
+}

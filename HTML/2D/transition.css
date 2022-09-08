@@ -1,0 +1,13 @@
+div {
+    width: 200px;
+    height: 200px;
+    background-color: royalblue;
+    font-size: 20px;
+    transition: width 4s;
+    transition-delay: 2s;
+
+  }
+
+  div:hover{
+      width: 300px;
+  }
